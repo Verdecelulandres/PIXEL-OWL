@@ -1,0 +1,233 @@
+nav {
+    background-color: #333;
+    padding: 15px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+nav .navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 1.1rem;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+nav .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #2e2e2e;
+    color: #bbb;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    font-size: 0.8rem; 
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+}
+
+
+footer p {
+    margin: 0;
+    color: #bbb;
+    font-size: 10px;
+}
+
+footer .footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    font-size: 0.8rem;
+}
+
+body {
+    font-family: 'Source Code Pro', monospace;
+    background: url('../assets/img/background.png') no-repeat center center fixed;
+    background-size: cover;
+    background-position: center -150px;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding-top: 0px;
+}
+
+.container, .leaderboard {
+    flex: 1;
+    max-width: 20%;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 15px;
+    margin: 0 200px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+h1 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+    margin-bottom: 15px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    text-align: center;
+}
+
+form input {
+    width: 100%;
+    max-width: 200px;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    background: rgba(255, 255, 255, 0.1);
+    color: #ffffff;
+    text-align: center;
+}
+
+form input::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+form button {
+    width: 100%;
+    max-width: 200px;
+    padding: 8px;
+    font-size: 0.9rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #d500f9;
+    color: #ffffff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form .error-msg, div .error-msg {
+    font-weight: bold;
+    color: red;
+}
+div .success-msg {
+    font-weight: bold;
+    color: green;
+}
+
+form button:hover {
+    background-color: #aa00ff;
+}
+
+.message {
+    margin: 8px 0;
+    font-weight: bold;
+    color: #ff80ab;
+}
+
+.leaderboard table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.leaderboard th, .leaderboard td {
+    padding: 8px;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #ffffff;
+}
+
+.leaderboard th {
+    background-color: #d500f9;
+}
+
+.leaderboard tr:nth-child(even) {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.leaderboard tr:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.leaderboard td {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.register-link {
+    color: #d500f9;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.register-link:hover {
+    text-decoration: underline;
+}
+
+.about-container {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 40px;
+    border-radius: 15px;
+    max-width: 800px;
+    width: 100%;
+    text-align: center;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.about-title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #d500f9;
+}
+
+.about-container  p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.about-images {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.about-images img {
+    max-width: 45%;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+}
+
