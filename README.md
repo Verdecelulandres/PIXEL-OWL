@@ -2,54 +2,23 @@ PIXEL RUN TODO TASKS:
 
 GAME:
 - [x] Define game
-- [ ] Gather Assets
-- [ ] Develop game
-- [ ] Implement game in website
-- [ ] Gather sound effects and music
+- [x] Gather Assets
+- [x] Develop game
+- [x] Implement game in website
 
 FRONTEND:
-- [ ] Define pages
-- [ ] Gather Assets
-- [ ] Build pages
-- [ ] Style Pages
-- [ ] Connect with backend
+- [x] Define pages
+- [x] Gather Assets
+- [x] Build pages
+- [x] Style Pages
+- [x] Connect with backend
 
 BACKEND:
-- [ ] Create Database
-- [ ] Create tables 
-- [ ] Set-up Login logic
-- [ ] Set-up user score storing
-- [ ] Set-up leaderboard queries
-- [ ] Connect with frontend
+- [x] Create Database
+- [x] Create tables 
+- [x] Set-up Login logic
+- [x] Set-up user score storing
+- [x] Set-up leaderboard queries
+- [x] Connect with frontend
 
-
-//MATEO
-- [ ] Gather (Or create) game assets
-	- [ ] Create main character sprites
-		- [ ] Create main character idle sprite
-		- [ ] Create main character running sprite
-		- [ ] Create main character dying sprite
-	- [ ] Create collectible sprite
-	- [ ] Create enemy sprite
-	- [ ] Create environment assets
-		- [ ] Create background asset
-		- [ ] Create platform asset
-		- [ ] Create ground asset
-- [ ] HTML page structure
-	- [ ] Design lading page structure
-	- [ ] Design game page structure
-	- [ ] Design leaderboard page structure
-	
-
-
-//Andres
-- [ ] Host web page
-	- [ ] Set up server
-- [ ] Create database
-	- [ ] Define tables
-	- [ ] Create tables
-		- [ ] Create user info tables
-		- [ ] Create score tables
-	- [ ] Define password encryption
-- [ ] Set up DB connections
 	
